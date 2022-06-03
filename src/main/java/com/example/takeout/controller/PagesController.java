@@ -1,4 +1,4 @@
-package com.example.pictgram.controller;
+package com.example.takeout.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
