@@ -17,29 +17,21 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			
-			<div class="collapse navbar-collapse" id="navbarNav">
+			<!-- <div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ms-auto">
-					<li class="nav-item"><img src="/images/icons/heart.png"
-						th:src="@{/images/icons/heart.png}"></li>
-					<li class="nav-item"><img src="/images/icons/camera.png"
-						th:src="@{/images/icons/camera.png}"></li>
-					<li class="nav-item"><img src="/images/icons/logout.png"
-						th:src="@{/images/icons/logout.png}"></li>
-					<li class="nav-item"><img src="/images/icons/register.png"
-						th:src="@{/images/icons/register.png}"></li>
-					<li class="nav-item"><img src="/images/icons/login.png"
-						th:src="@{/images/icons/login.png}"></li>
-						
+					<li class="nav-item"><img src="/images/icons/cart.png"
+						th:src="@{/images/icons/cart.png}"></li>
+				
 				</ul>
-			</div>
+			</div>-->
 		</div>
 	</nav>
-	<div id="messages" layout:fragment="messages"
+	<!--<div id="messages" layout:fragment="messages"
 		th:if="!${#lists.isEmpty(#fields.detailedErrors())}">
 		<ul>
 			<li th:each="error : ${#fields.detailedErrors()}"
 				class="error-message" th:text="${error.message}" />
 		</ul>
-	</div>
+	</div>-->
 </body>
 </html>
