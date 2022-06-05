@@ -8,6 +8,6 @@ public class MenuController {
 
 	@GetMapping(path = "/menu")
 	public String index() {
-		return "menu";
+		return "menu/index";
 	}
 }
