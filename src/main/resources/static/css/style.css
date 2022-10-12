@@ -49,7 +49,7 @@ nav.navbar {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646; }
+  background-color: #000000; }
   .pages-index-wrapper .container {
     padding-top: 80px; }
     .pages-index-wrapper .container h1 {
@@ -66,9 +66,14 @@ nav.navbar {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646; }
+  background-color: white; }
   .users-new-wrapper main {
     padding-top: 80px; }
+    .users-new-wrapper main h1 {
+      font-size: 56px;
+      margin-bottom: 20px; }
+    .users-new-wrapper main h2 {
+      margin-bottom: 60px; }
 
 .topics-new-wrapper, .comments-new-wrapper {
   padding-top: 80px; }
