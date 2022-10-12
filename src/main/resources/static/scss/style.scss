@@ -54,7 +54,7 @@ nav.navbar {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
+  background-color: #000000;
   .container {
     padding-top: 80px;
     h1 {
@@ -74,9 +74,16 @@ nav.navbar {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
+  background-color: rgb(255, 255, 255);
   main {
     padding-top: 80px;
+        h1 {
+      font-size: 56px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-bottom: 60px;
+    }
   }
 }
 .topics-new-wrapper, .comments-new-wrapper {
